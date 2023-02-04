@@ -1,0 +1,28 @@
+.button {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  padding: 11px 20px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #4CB649;
+  border: 1px solid #4CB649;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s;
+  overflow: hidden;
+  text-decoration: none;
+
+  &:hover {
+    border-color: #4CB649;
+    color: #ffffff;
+    background: linear-gradient(0deg, #4CB649 0%, #5DDF5A 100%);
+  }
+
+  &:active {
+    border-color: #FFA400;
+    background: linear-gradient(0deg, #FF8D00 3.81%, #FFA400 97.78%);
+  }
+}
